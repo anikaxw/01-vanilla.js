@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <button id="my-button" onclick="ChangeButtonText('my-button')">
+        Кнопка 1
+        </button>
+    </div>
+
+    
+
+</div>
+    <script>
+        function ChangeButtonText(id){
+            const myButton = document.getElementById(id);
+            myButton.innerHTML = 'Hello from Vanilla JS!';
+            myButton.className = 'green-btn';
+        }   
+    </script>
+<style>
+
+.app{
+    text-align: center;
+    color: rgb(73, 42, 165);
+    margin-top: 50px;
+font-size: 100px;
+}
+
+    .green-btn{
+        color: azure;
+        background-color: chartreuse;
+        font-size: 50px;
+    }
+
+</style>
+
+
+
+<script>
+
+</script>
+
+
+</body>
+</html>
